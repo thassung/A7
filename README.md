@@ -73,7 +73,11 @@
 
    Below is how the app should look like.
 
+   ![image](https://github.com/thassung/AIT-GPT_demo/assets/105700459/205b6f20-2185-4d34-8190-8f5ac45fc493)
 
-## About the Model Performance
+
+## Comment about the Model Performance
+
+So far, with sample question in this ipynb, the model can answer the question correctly though it is might not be the best detailed answer. For example, when asked "where is AIT?", it answers with "P.O.  Box  4  Klong  Luang  Pathumthani  12120,  Thailand" which is correct but not the best, accurated answer you can get from the document. The model does not exhibit an AI hallucination. Or when it is asked how many students and faculties are in AIT, it answers "1200+ from 40+ countries" which is the number of students and not accounted for faculties. It is obvious that an information is missing (see above figure). When asked who the AIT president is which is an information not mentioned in the document, the model answers with "the  text  does  not  provide  any  information  about  AIT's  president.  The  President  is  the  head  of  the  AIT  Student  Union,  which  is  responsible  for  implementing  policies  and  ensuring  the  well-being  of  the  students.  The  Vice  President  becomes  President  of  the  SU  in  the  succeeding  semester." Although there is no hallucination in the last sentence, most of the answer is not directly related and irrelevant to the question. 
 
 
