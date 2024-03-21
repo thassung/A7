@@ -21,19 +21,19 @@
 
 ### Set-up wsl with cuda
 
-1. Install wsl on your Windows. If you use Linux, you can skip to step 3.:
+1. Install wsl on your Windows via powershell. If you use Linux, you can skip to step 3.:
 
    ```powershell
    wsl --install
    ```
 
-2. Access the ubuntu terminal
+2. Access the ubuntu terminal:
 
     ```powershell
    wsl
    ```
  
-3. Check if you have GPU available and run the following command line to install python, cuda, and torch
+3. Check if you have GPU available and run the following command line to install python, cuda, and torch:
 
     ```terminal
    sudo apt update && sudo apt upgrade
