@@ -16,8 +16,9 @@ def model_inference():
         inputData = request.json
         query = inputData['prompt'] 
 
-        response = query_to_response(query)
-        response = {'response': response}
+        answer, source = query_to_response(query)
+        response = {'answer': answer,
+                    'source': source}
 
         return jsonify(response)
 

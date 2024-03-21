@@ -162,5 +162,8 @@ chain = ConversationalRetrievalChain(
 
 def query_to_response(query):
     answer = chain({"question":query})
-    return answer['answer']
+    source = ''
+    for i in answer['source_documents']:
+        source += i.page_content
+    return answer['answer'], source
 
